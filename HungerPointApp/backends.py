@@ -87,14 +87,12 @@ def HungerPointAppPagination(data,request):
             'number_of_pages':paginator.num_pages,
             'next_url':next_url,
             'previous_url':previous_url,
-            # 'next_page_number':page.next_page_number,
-            # 'previous_page_number':page.previous_page_number,
             'has_next':page.has_next(),
             'has_previous':page.has_previous(),
             'has_other_pages':page.has_other_pages(),
             'data_count':len(data)
         }
-       
+        
         return Response({'result':{
             'status':'GET_ALL_DATA',
             'pagination':pagination_data,
@@ -108,7 +106,6 @@ def HungerPointAppPagination(data,request):
                         'status_code':status.HTTP_404_NOT_FOUND,
                         }},status=status.HTTP_404_NOT_FOUND)
         
-
 # Check Pagination Params 
 
 def CheckPaginationParams(request):
