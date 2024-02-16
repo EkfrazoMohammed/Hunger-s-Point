@@ -4,7 +4,7 @@ Welcome to Hunger's Point! This repository contains the backend code for our foo
 
 ## Overview
 
-Hunger's Point aims to provide a seamless experience for users to order food from various restaurants and get it delivered to their doorstep. This Django backend serves as the foundation for our platform, handling authentication, order management, and integration with external services.
+Hunger's Point aims to provide a seamless experience for users to order food from Hunger's Point restaurant and get it delivered to their doorstep. This Django backend serves as the foundation for our platform, handling authentication, order management, and integration with external services.
 
 ## Features
 
@@ -12,7 +12,7 @@ Hunger's Point aims to provide a seamless experience for users to order food fro
 - Restaurant and menu management
 - Order processing and tracking
 - Integration with payment gateways
-- Admin dashboard for managing users, orders, and restaurants
+- Admin dashboard for managing users, orders, and menus
 
 ## Installation
 
@@ -28,11 +28,11 @@ To get started with Hunger's Point, follow these steps:
 
 ## Usage
 
-After following the installation steps, you can access the Django admin interface at `http://localhost:8000/admin/` to manage users, restaurants, and orders. Additionally, you can explore the API endpoints defined in the project to interact programmatically with the backend.
+After following the installation steps, you can access the Django admin interface at `http://localhost:8000/admin/` to manage users, menus, and orders. Additionally, you can explore the API endpoints defined in the project to interact programmatically with the backend.
 
 ## License
 
-This project is licensed under the [Ekfrazo Technologies](LICENSE).
+This project is licensed under the [Ekfrazo](https://ekfrazo.com/). Visit [Ekfrazo Technologies](https://ekfrazo.com/) for more information.
 
 ## Contact
 
