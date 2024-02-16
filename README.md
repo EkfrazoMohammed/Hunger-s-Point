@@ -32,7 +32,7 @@ After following the installation steps, you can access the Django admin interfac
 
 ## License
 
-This project is licensed under the [Ekfrazo Technologies](https://ekfrazo.com/).
+This project is licensed under the <a href="https://ekfrazo.com/" target="_blank">Ekfrazo Technologies</a>.
 
 ## Contact
 
